@@ -14,7 +14,7 @@ The payment tracker imports payment from this sources:
 
 ###  Compiling & Testing
 
-Program can be compiled and Tested using Maven.
+Program can be compiled and tested using Maven.
 
 for testing use:
 

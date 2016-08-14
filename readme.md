@@ -1,4 +1,4 @@
-# payment-tracker
+# Payment Tracker
 
 The program outputs a list of all the currency and amounts to the console once per minute. The input can be typed into the command line, and optionally also be loaded from a file when starting up.
 
@@ -7,13 +7,34 @@ The payment tracker imports payment from this sources:
 - **File**
 - **Command Line**
 
-###  Usage
+### Requirements:
 
-Execute mvn package to build an executable fat jar.
+- **JRE 1.8**
+- **Maven**
 
+###  Compiling & Testing
+
+Program can be compiled and Tested using Maven.
+
+for testing use:
+
+```
+mvn test
+```
+
+for packaging use:
+
+```
+mvn package
+```
+
+###  Running 
+
+for running use:
+```
 java -jar target/payment-tracker-1.0-SNAPSHOT.one-jar.jar 
-
+```
 or with optionally loaded from a file when starting up
-
+```
 java -jar target/payment-tracker-1.0-SNAPSHOT.one-jar.jar payments.txt
-
+```

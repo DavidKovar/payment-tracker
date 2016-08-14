@@ -1,0 +1,1 @@
+java -jar target/payment-tracker-1.0-SNAPSHOT.jar payments.txt

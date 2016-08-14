@@ -32,9 +32,9 @@ mvn package
 
 for running use:
 ```
-java -jar target/payment-tracker-1.0-SNAPSHOT.one-jar.jar 
+java -jar target/payment-tracker-1.0-SNAPSHOT.jar 
 ```
 or with optionally loaded from a file when starting up
 ```
-java -jar target/payment-tracker-1.0-SNAPSHOT.one-jar.jar payments.txt
+java -jar target/payment-tracker-1.0-SNAPSHOT.jar payments.txt
 ```
